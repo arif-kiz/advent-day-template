@@ -1,7 +1,9 @@
 mod parse;
-mod solve;
+mod solve1;
+mod solve2;
 
-use solve::{solve_1, solve_2};
+use solve1::solve_1;
+use solve2::solve_2;
 use crate::parse::{parse, Question, Answer};
 
 fn main() {
