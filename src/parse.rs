@@ -3,7 +3,7 @@ pub fn parse(s: &str) -> Question {
 }
 
 #[derive(Debug)]
-pub struct Question(u64);
+pub struct Question(pub u64);
 
 #[derive(PartialEq, Eq, Debug)]
-pub struct Answer(u64);
+pub struct Answer(pub u64);
