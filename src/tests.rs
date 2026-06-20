@@ -1,4 +1,4 @@
-use super::{solve_1, solve_2, parse, Question, Answer};
+use super::{solve_1, solve_2, parse, parse::{Answer, Question}};
 
 fn parse_input() -> Question {
     let input = "";
