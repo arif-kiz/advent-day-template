@@ -5,6 +5,7 @@ edition = "2024"
 
 [dependencies]
 cfg-if = "1.0"
+itertools = "0.15.0"
 
 [features]
 a1 = []

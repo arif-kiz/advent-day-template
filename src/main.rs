@@ -2,6 +2,8 @@ mod parse;
 mod solve1;
 mod solve2;
 
+#[allow(unused)]
+
 use solve1::solve_1;
 use solve2::solve_2;
 use crate::parse::parse;

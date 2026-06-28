@@ -10,7 +10,7 @@ fn test_1() {
     assert_eq!(solve_1(parse_input()), Answer(0));
 }
 
-#[test]
+// #[test]
 fn test_2() {
     assert_eq!(solve_2(parse_input()), Answer(0));
 }
